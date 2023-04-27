@@ -12,10 +12,9 @@ interface MWServiceInterface {
      * @param string $account
      * @param string $gameCode
      * @param string $language
-     * @param string $backUrl
      * @return mixed
      */
-    function gameLaunch(string $opCode, string $account, string $gameCode, string $language, string $backUrl = null);
+    function gameLaunch(string $opCode, string $account, string $gameCode, string $language);
 
     /**
      * 遊戲詳情
