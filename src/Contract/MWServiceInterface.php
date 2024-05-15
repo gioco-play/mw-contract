@@ -82,7 +82,7 @@ interface MWServiceInterface {
      * @param string $memberCode
      * @return mixed
      */
-    function accountToVendor(string $opCode, array $vendor, string $memberCode);
+    function accountToVendor(string $opCode, array $vendor, string $playerName);
 
     /**
      * 遊戲商帳號轉換為營商帳號
