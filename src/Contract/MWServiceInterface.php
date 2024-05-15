@@ -79,7 +79,7 @@ interface MWServiceInterface {
      * 營商帳號轉換為遊戲商帳號
      * @param string $opCode
      * @param array $vendor
-     * @param string $memberCode
+     * @param string $playerName
      * @return mixed
      */
     function accountToVendor(string $opCode, array $vendor, string $playerName);
